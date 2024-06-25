@@ -15,7 +15,7 @@ jobs:
       - name: Update Jira issue
         uses: atlassian/gajira-create@v2
         with:
-          project: 'SCRUM'
+          project: 'NTP'
           summary: 'Update from GitHub'
           description: 'This issue is updated from GitHub action'
         env:
